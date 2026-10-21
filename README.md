@@ -1,6 +1,6 @@
-# SANGANAK - Expert Tuition & IT Training Website
+# SAMGANAK - Expert Tuition & IT Training Website
 
-A modern, responsive static website for SANGANAK tuition and IT training services.
+A modern, responsive static website for SAMGANAK tuition and IT training services.
 
 ## Features
 
@@ -17,19 +17,19 @@ A modern, responsive static website for SANGANAK tuition and IT training service
 - **index.html** - Homepage with course overview
 - **booking.html** - Booking/enquiry page
 - **training.html** - Detailed course descriptions
-- **about.html** - About SANGANAK
+- **about.html** - About SAMGANAK
 - **contact.html** - Contact form
 
 ## Setup & Deployment
 
 ### Option 1: GitHub Pages (FREE)
 
-1. Create a new repository: `sanganak-website`
+1. Create a new repository: `samganak-website`
 2. Push this code to the repository
 3. Go to Settings → Pages
 4. Select "Deploy from a branch"
 5. Choose "main" branch
-6. Your site will be live at: `https://username.github.io/sanganak-website/`
+6. Your site will be live at: `https://username.github.io/samganak-website/`
 
 ### Option 2: Netlify (FREE)
 
@@ -80,7 +80,7 @@ Edit these files to add your actual contact details:
 ## File Structure
 
 ```
-sanganak-website/
+samganak-website/
 ├── index.html              # Homepage
 ├── booking.html            # Booking page
 ├── training.html           # Courses page
@@ -116,13 +116,13 @@ sanganak-website/
 git init
 
 # Add remote (replace with your repository URL)
-git remote add origin https://github.com/YOUR-USERNAME/sanganak-website.git
+git remote add origin https://github.com/YOUR-USERNAME/samganak-website.git
 
 # Add all files
 git add .
 
 # Create first commit
-git commit -m "Initial SANGANAK website"
+git commit -m "Initial SAMGANAK website"
 
 # Push to GitHub
 git push -u origin main
@@ -164,7 +164,7 @@ The website supports:
 
 ## License
 
-This website is the property of SANGANAK. All rights reserved.
+This website is the property of SAMGANAK. All rights reserved.
 
 ## Support
 
