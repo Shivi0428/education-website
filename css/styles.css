@@ -2028,3 +2028,8 @@ section.alternate,
         flex: 1 1 200px;
     }
 }
+
+/* Menu sits centred now that there is no logo beside it */
+.navbar .container {
+    justify-content: center;
+}
