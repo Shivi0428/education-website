@@ -2033,3 +2033,8 @@ section.alternate,
 .navbar .container {
     justify-content: center;
 }
+
+.info-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 320px));
+    justify-content: center;
+}

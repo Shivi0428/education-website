@@ -1,7 +1,7 @@
-// SAMGANAK Website - Main JavaScript File
+// Website - Main JavaScript File
 
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('SAMGANAK website loaded successfully');
+    console.log('Website loaded successfully');
 
     // Initialize subject card selection
     initializeSubjectCards();

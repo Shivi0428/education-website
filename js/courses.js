@@ -1,4 +1,4 @@
-// SAMGANAK course catalogue and the pages that read it (tabs, course detail, booking prefill)
+// Course catalogue and the pages that read it (tabs, course detail, booking prefill)
 
 const LEVELS = {
     it: {
@@ -723,12 +723,12 @@ function initCourseDetail() {
             '<div class="container narrow"><h1>Course not found</h1>' +
             '<p>We could not find that course. Browse everything we teach on the courses page.</p>' +
             '<a class="btn btn-secondary" href="training.html">See all courses</a></div>';
-        document.title = 'Course not found - SAMGANAK';
+        document.title = 'Course not found';
         return;
     }
 
     const level = LEVELS[c.level];
-    document.title = level.label + ' ' + c.title + ' - SAMGANAK';
+    document.title = level.label + ' ' + c.title;
 
     const bookHref = 'booking.html?course=' + encodeURIComponent(c.id);
     const related = COURSES.filter(x => x.level === c.level && x.id !== c.id);
